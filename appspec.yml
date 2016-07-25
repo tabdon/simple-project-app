@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /
     destination: /var/www
+  - source: /scripts/catalyst_uwsgi.conf
+    destination: /etc/init
 hooks:
   BeforeInstall:
     - location: core/scripts/before_install.sh

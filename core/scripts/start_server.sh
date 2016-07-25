@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo uwsgi --socket /tmp/catalyst.sock --module core.wsgi --chmod-socket=666
+sudo start catalyst_uwsgi
 sudo nginx -s reload
