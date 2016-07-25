@@ -1,0 +1,12 @@
+<!DOCTYPE>
+<html>
+    <body>
+        <div>
+            {% if db_status %}
+                <h3>DB Connection Status: <span style="color:green">Active</span></h3>
+            {% else %}
+                <h3>DB Connection Status: <span style="color:red">Failed</span></h3>
+            {% endif %}
+        </div>
+    </body>
+</html>
