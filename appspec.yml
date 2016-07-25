@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /var/www
-  - source: /scripts/centest_uwsgi.conf
+  - source: /core/scripts/centest_uwsgi.conf
     destination: /etc/init
 hooks:
   BeforeInstall:
