@@ -1,0 +1,9 @@
+[
+    {
+        "fields": {
+            "status": "Active"
+        },
+        "model": "web.testmodel",
+        "pk": 2
+    }
+]
